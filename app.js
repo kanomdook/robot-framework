@@ -13,9 +13,7 @@ fs.readdir(directory, (err, files) => {
     for (const file of files) {
         const spl = file.split('.');
         if (spl[1] === 'log') {
-            fs.unlink(path.join(directory, file), err => {
-                if (err) throw err;
-            });
+            fs.unlink(path.join(directory, file), err => { });
         }
     }
 });
@@ -26,9 +24,7 @@ fs.readdir('./', (err, files) => {
     for (const file of files) {
         const spl = file.split('.');
         if (spl[1] === 'log') {
-            fs.unlink(path.join('./', file), err => {
-                if (err) throw err;
-            });
+            fs.unlink(path.join('./', file), err => { });
         }
     }
 });
