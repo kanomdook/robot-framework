@@ -1,3 +1,7 @@
 **/test/*.log
 **/test/*.html
 **/test/*.xml
+
+**/*.log
+**/*.html
+**/*.xml
