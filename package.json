@@ -1,0 +1,26 @@
+{
+  "name": "robot-framework",
+  "version": "1.0.0",
+  "description": "robot framework with seleniumLibrary",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanomdook/robot-framework.git"
+  },
+  "keywords": [
+    "robot",
+    "framework"
+  ],
+  "author": "dookdik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kanomdook/robot-framework/issues"
+  },
+  "homepage": "https://github.com/kanomdook/robot-framework#readme"
+}
